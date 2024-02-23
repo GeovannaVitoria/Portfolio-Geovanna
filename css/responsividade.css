@@ -1,0 +1,13 @@
+@media (max-width:425){
+    .profile-image{
+        visibility: hidden;
+    }
+
+    header{
+        color: red;
+    }
+
+    .limita-menu{
+        background-color: blue;
+    }
+}
