@@ -1,13 +1,72 @@
-@media (max-width:425){
-    .profile-image{
-        visibility: hidden;
-    }
-
-    header{
-        color: red;
+@media (max-width:425px){
+    .menu{
+        height: 20vh;
     }
 
     .limita-menu{
-        background-color: blue;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .menu h1{
+        padding: 10px;
+    }
+   
+    nav{
+        padding: 10px 0;
+        margin-bottom: 10px;
+        border-top: 2px solid #94D3D7;
+    }
+
+    .main-banner{
+        justify-content: space-between;
+        padding: 180px 20px;
+    }
+
+    .profile-image{
+        display: none;
+    }
+
+    .sobre{
+        top: 410px;
+    }
+
+    .texto-container-sobre{
+        max-width: 380px;
+        width: 100%;
+    }
+
+    .sobre{
+        padding: 20px 0;
+    }
+
+    .container-habilidades{
+        top: 5000px;
+    }
+
+}
+
+@media (max-width:714px){
+    .profile-image{
+        display: none;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:768px){
+    .sobre-experiencia{
+        flex-direction: column;
+    }
+
+    .texto-container-sobre{
+        width: 600px;
+    }
+
+    .card-experiencia{
+        margin: 0 auto;
+    }
+
+    .container-habilidades{
+        top: 1250px;
     }
 }
