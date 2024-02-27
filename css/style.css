@@ -76,8 +76,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 120px 20px;
-    position: relative;
+    padding: 80px 20px;
 }
 
 .banner-icons{
@@ -138,14 +137,16 @@ nav a:hover{
 }
 
 /* Seção sobre */
+.background-sobre{
+    background-color: #3C9EAB;
+}
+
 .sobre{
     background-color: #292929;
     color: #FFFFFF;
     padding: 40px 20px;
     border-top-left-radius: 80px;
     border-top-right-radius: 80px;
-    position: absolute;
-    top: 470px;
     width: 100%;
 }
 
@@ -249,11 +250,9 @@ nav a:hover{
 
 /* Seção Habilidades */
 .container-habilidades{
-    top: 1145px;
-    position: absolute;
     background-color: #7DBDC1;
     width: 100%;
-    padding: 50px 10px;
+    padding: 55px 10px;
     border-bottom: 2px solid #3C9EAB;
 }
 
@@ -301,8 +300,6 @@ nav a:hover{
 .projetos{
     background-color: #FFFFFF;
     width: 100%;
-    position: absolute;
-    top: 1700px;
     padding: 40px 20px;
     border-bottom: 2px solid #3C9EAB;
 }
@@ -336,6 +333,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex-grow: 1;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -376,8 +374,6 @@ nav a:hover{
 footer{
     width: 100%;
     background-color: #FFFFFF;
-    position: absolute;
-    top: 2200px;
 }
 
 .limita-footer{

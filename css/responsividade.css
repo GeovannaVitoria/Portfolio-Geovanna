@@ -16,19 +16,23 @@
         padding: 10px 0;
         margin-bottom: 10px;
         border-top: 2px solid #94D3D7;
+        font-size: 10px;
     }
 
     .main-banner{
         justify-content: space-between;
-        padding: 180px 20px;
+    }
+
+    .banner-icons a:first-of-type{
+        margin-top: 80px;
+    }
+
+    .banner-apresentacao p:first-of-type{
+        margin-top: 65px;
     }
 
     .profile-image{
         display: none;
-    }
-
-    .sobre{
-        top: 410px;
     }
 
     .texto-container-sobre{
@@ -36,24 +40,17 @@
         width: 100%;
     }
 
-    .sobre{
-        padding: 20px 0;
+    .habilidades{
+        width: 350px;
     }
 
-    .container-habilidades{
-        top: 5000px;
-    }
-
-}
-
-@media (max-width:714px){
-    .profile-image{
-        display: none;
-        justify-content: space-between;
-    }
 }
 
 @media (max-width:768px){
+    .main-banner{
+        padding: 65px 20px;
+    }
+
     .sobre-experiencia{
         flex-direction: column;
     }
@@ -67,6 +64,21 @@
     }
 
     .container-habilidades{
-        top: 1250px;
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    .limita-habilidades{
+        height: 100%;
+    }
+
+
+    .imagem-projeto{
+        width: 100%;
+        height: 150px;
     }
 }
