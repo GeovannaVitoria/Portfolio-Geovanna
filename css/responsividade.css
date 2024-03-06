@@ -55,9 +55,7 @@
         flex-direction: column;
     }
 
-    .texto-container-sobre{
-        width: 600px;
-    }
+    /*Retirei essa classe pois o texto ficava com uma largura fixa e não centralizava na tela*/
 
     .card-experiencia{
         margin: 0 auto;
