@@ -56,7 +56,10 @@
         flex-direction: column;
     }
 
-    /*Retirei essa classe pois o texto ficava com uma largura fixa e não centralizava na tela*/
+    .texto-container-sobre{
+        max-width: 600px;  /*Alteração da largura fixa para uma largura dinâmica*/
+    } 
+
 
     .card-experiencia{
         margin: 0 auto;
